@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {NewComponent} from "./NewComponent";
 import {TopCars} from "./TopCars";
+import {TopComputers} from "./topComputers";
 
 function App() {
 
@@ -25,10 +26,17 @@ function App() {
         {manufacturer: 'Audi', model: 'rs6'}
     ]
 
+    const topComputers = [
+        {id:1,name:'MyFirstComputer',place:'home'},
+        {id:2,name:'MySecondComputer',place:'work'},
+        {id:3,name:'MyThirdComputer',place:'home'}
+    ]
+
   return (
     <div className="App">
       <NewComponent students={students}/>
         <TopCars cars={topCars}/>
+        <TopComputers comps={topComputers}/>
     </div>
   );
 }
