@@ -17,8 +17,8 @@ function App() {
         {id: 9, name: "Thomas", age: 88},
         {id: 10, name: "Charles", age: 98},
         {id: 11, name: "Christopher", age: 100}
-
     ]
+
     const topCars = [
         {manufacturer: 'bmw', model: 'm5cs'},
         {manufacturer: 'Mercedes', model: 'e63s'},
